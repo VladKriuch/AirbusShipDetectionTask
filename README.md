@@ -77,7 +77,7 @@ the dice score on 160 test images ( random images from train file ) for overall 
 (You can test this via `helpers/dice_estimator.py` file)
 
 the dice score of UNET model on only ships images is 0.7, unfortunately I did not save the last training file I did in 
-google colab som it is not displayed in jupyter notebook. I've trained model for 110 epochs and really feel like it could 
+google colab so it is not displayed in jupyter notebook(.Also to note, I've trained model for 110 epochs and really feel like it could 
 have done more with more epochs and batch size.
 
 

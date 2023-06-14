@@ -1,9 +1,18 @@
 ## Airbus Ship Detection Challenge
 Requirements:
 1) Python 3.11
-2) pip install -r requirements.txt
 
 Author: kriuchkvskyi.vlad@gmail.com
+
+Usage on windows: Open terminal
+1) git clone https://github.com/VladKriuch/AirbusShipDetectionTask.git
+2) cd AirbusShipDetectionTask
+3) python -m venv venv
+4) venv\Scripts\activate
+5) pip install -r requirements.txt
+6) python model_inference.py 
+
+P.S. There is an example in model_inference.py, if you want your images you can upload them to your folder and specify the paths in model_inference.py file.
 
 ### Project structure
 

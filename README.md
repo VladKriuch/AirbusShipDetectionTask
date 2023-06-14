@@ -92,7 +92,7 @@ Overall, I haven't used data augmentations due to small computer power capabilit
 of blue color on image could lead to some better results of classifier especially. Also, I have not really
 used validation dataset for dice score, it was more like test dataset but I do not think model could overfit to it as images
 were different on every epoch. I've also seen in discussions the proposal of classifying images at the end after segmantation
-based on classifier + segmentator results. It is also interesting to investigate of why resnet50 model failed
+based on classifier + segmentator results, wanted to try it but couldn't due to resource limit. It is also interesting to investigate of why resnet50 model failed
 in both classification and segmentation tasks. Im sure it is probably some incorrect data preparation or smth.
 
 

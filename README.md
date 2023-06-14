@@ -27,6 +27,8 @@ The reason of this was due to my restrictions in computing capabilities.
 I've made simple notebook file for retrieving 25k images from original dataset ( 12.5 k with ships and 12.5 k files 
 without ships ). You can find this script in `helpers/Creating dataset.ipynb`
 
+Here you can find zip file with this dataset: https://drive.google.com/file/d/19YxF_zeuBHogYQxmO1Xs9TWoAHX6_ADI/view?usp=sharing
+
 #### Analysing data
 
 For analysing data I've took dataset that was generated on the previous step. 
@@ -94,6 +96,10 @@ used validation dataset for dice score, it was more like test dataset but I do n
 were different on every epoch. I've also seen in discussions the proposal of classifying images at the end after segmantation
 based on classifier + segmentator results, wanted to try it but couldn't due to resource limit. It is also interesting to investigate of why resnet50 model failed
 in both classification and segmentation tasks. Im sure it is probably some incorrect data preparation or smth.
+
+My classification model is also need to be trained better. 0.9 accuracy means that there are 10% of classification wrongs and it impacts the whole dice score very much in case of False Negatives ( images with ships classified as no ship ) samples. 
+
+And sometimes model is struggling with small ships images. So a key here is finding a good data preparation pipeline and not just resizing.
 
 
 

@@ -14,7 +14,7 @@ Author: kriuchkvskyi.vlad@gmail.com
 | model_structures # Folder with model structures for usage in production\
 | model_weights # Saved model weights for usage in production\
 | train_images # Folder with images for training\
-| inference_drafts # Folder with .ipynb notebooks that were used during experiments
+| inference_drafts # Folder with .ipynb notebooks that were used during experiments\
 | helpers # Folder with helping scripts or csv files
 
 ### Solution description
